@@ -15,10 +15,6 @@ const socialLinks = [
     href: `mailto:${contactInfo.email}`,
     label: "Mail",
   },
-  {
-    href: personalInfo.resumeUrl,
-    label: "Resume",
-  },
 ];
 
 function Footer() {

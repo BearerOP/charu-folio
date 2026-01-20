@@ -1,6 +1,5 @@
 import Logo from "./logo";
 import { ModeToggle } from "./theme-button";
-import Booker from "./cta";
 
 export const Navbar = () => {
   return (
@@ -19,7 +18,6 @@ export const Navbar = () => {
       </div>
       <div className="flex items-center gap-2 h-12 relative">
         {/* <Frame/> */}
-      <Booker/>
       <ModeToggle />
       </div>
     </nav>
